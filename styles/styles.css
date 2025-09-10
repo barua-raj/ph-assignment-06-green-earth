@@ -1,0 +1,21 @@
+/* html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+} */
+body {
+    font-family: "Inter", sans-serif;
+}
+.categories-list p {
+    display: block;
+    box-sizing: border-box;
+    width: auto;
+    padding: 7px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color .2s ease, color .2s ease, transform .2s ease;
+}
+.categories-list p:hover{
+    background-color: rgba(21,128,61,1);
+    color:#fff;
+    transform: translateX(2px);
+}
