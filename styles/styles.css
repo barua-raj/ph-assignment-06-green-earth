@@ -5,17 +5,31 @@
 body {
     font-family: "Inter", sans-serif;
 }
-.categories-list p {
-    display: block;
+#container-categories-list-items button {
+    display: inline-block;
     box-sizing: border-box;
-    width: auto;
-    padding: 7px 6px;
+    padding: 8px 7px;
     border-radius: 6px;
     cursor: pointer;
     transition: background-color .2s ease, color .2s ease, transform .2s ease;
+    text-align: left;
 }
-.categories-list p:hover{
+#container-categories-list-items button:hover {
     background-color: rgba(21,128,61,1);
     color:#fff;
     transform: translateX(2px);
+}
+.clamp-texts{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.active {
+    background-color: rgba(21,128,61,1);
+    color:#fff;
+}
+.card-details-span {
+    font-size: 0.938rem;
+    font-weight: 300;
 }
